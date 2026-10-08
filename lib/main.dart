@@ -7,6 +7,11 @@ void main() {
         body: Center(
           child: Text(
             'Hello World!',
+            style: TextStyle(
+              fontSize: 30,
+              color: Colors.deepOrange,
+              fontWeight: FontWeight.bold,
+            ),
             //style: TextStyle(fontSize: 24),
           ),
         ),
