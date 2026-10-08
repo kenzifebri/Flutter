@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+     MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.grey[900],
         body: Center(
           child: Text(
             'Hello World!',
@@ -15,7 +16,11 @@ void main() {
             //style: TextStyle(fontSize: 24),
           ),
         ),
+            floatingActionButton: FloatingActionButton(
+            onPressed: () {},
+            backgroundColor: Colors.deepOrange,
+            child: const Icon(Icons.code),
       ),
     ),
-  );
+  ));
 }
