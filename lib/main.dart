@@ -7,9 +7,10 @@ void main() {
         backgroundColor: Colors.grey[900],
         body: Center(
           child: Text(
-            'Hello World!',
+            'Nama: Kenzie Sky \nJurusan: Teknik Informatika\nKampus: Binasarana Global Jaya',
+            textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 24,
               color: Colors.deepOrange,
               fontWeight: FontWeight.bold,
             ),
